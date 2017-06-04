@@ -1,0 +1,31 @@
+{
+  "name": "snowplow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omiologic/snowplow.git"
+  },
+  "author": "Milo Kang <milowebmaster@gmail.com>",
+  "contributors": [
+    {
+      "name": "Daniel Kang",
+      "email": "dkinsk@gmail.com",
+      "url": "https://github.com/orgs/omiologic/people/dkinsk"
+    },
+    {
+      "name": "Milo Kang",
+      "email": "milowebmaster@gmail.com",
+      "url": "https://github.com/orgs/omiologic/people/milocosmopolitan"
+    },
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omiologic/snowplow/issues"
+  },
+  "homepage": "https://github.com/omiologic/snowplow#readme"
+}
