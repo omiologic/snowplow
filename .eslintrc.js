@@ -7,7 +7,7 @@ module.exports = {
         ecmaVersion: 8
     },
     ecmaFeatures: {
-        jsx: true,
+        jsx: true
     },
     plugins: ['react', 'import'],
     rules: {
@@ -21,7 +21,7 @@ module.exports = {
         "no-unused-expressions": "off",
         "one-var": "off",
         "new-parens": "off",
-        "indent": ["warn", "tab", {SwitchCase: 1}],
+        "indent": ["error", 2, {SwitchCase: 0}],
         "arrow-body-style": ["warn", "as-needed"],
         "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
         "no-unused-vars": "off",
@@ -43,6 +43,6 @@ module.exports = {
                 ArrayExpression: true,
                 ObjectExpression: true,
             }
-        }],
-    },
+        }]
+    }
 }
