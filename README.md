@@ -1,7 +1,36 @@
 # Snowplow
 
-This project was originally generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
 
+##Installation
+
+**1. Clone the repo**
+
+    git clone https://github.com/omiologic/snowplow.git
+
+**2. Run install script**
+
+Run `npm install` from root directory of the project to install.
+
+________________
+## Server
+
+Run `npm start` to start server.
+
+________________
+## Run build
+
+Run `npm build` for standard build.
+
+Run `npm run build-dev` for quicker compile and live reload for development purpose.
+
+________________
+## Running unit tests
+
+Run `npm test` to execute the unit tests
+
+Please note that the `npm test` command will run `npm run lint` after running unit tests.
+
+________________
 ## Main Technologies Used
 
 ### Backend
@@ -13,12 +42,5 @@ This project was originally generated with [Angular CLI](https://github.com/angu
 * [Mocha](https://mochajs.org/) Mocha JavaScript Testing Framework
 * [Chai](http://chaijs.com/) Chai JavaScript BDD/TDD assertion library
 
-## Architectural Notes
-
-## Scripts
-
-installation
-
-start
-
-.....
+________________
+## Milestones

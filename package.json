@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "echo \"Start server\" && exit 1",
+    "build": "echo \"Start build\" && exit 1",
+    "build-dev": "echo \"Start build for development mode\" && exit 1",
+    "lint": "echo \"Run Lint\" && exit 1",
+    "test": "echo \"Run Test\" && exit 1"
   },
   "repository": {
     "type": "git",
