@@ -1,15 +1,19 @@
 import React from 'react';
+import Jumbotron from '../ui/Jumbotron';
+import About from '../components/About';
+import Team from '../components/Team';
+import Service from '../components/Service';
 
-export class HomeContainer extends React.Component {
+export default class HomeContainer extends React.Component {
   render() {
     return (
-        <div>
-          <div>THIS IS HOME CONTAINER</div>
-          <div>Jumbotron Component Placeholder</div>
-          <div>Section 1</div>
-          <div>Section 2</div>
-          <div>Section 3</div>
-        </div>
+      <div>
+        <div>THIS IS HOME CONTAINER</div>
+        <Jumbotron/>
+        <About/>
+        <Team/>
+        <Service />
+      </div>
     );
   }
 }
