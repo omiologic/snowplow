@@ -5,9 +5,6 @@ export default class NavbarComponent extends React.Component {
     return (
       <div>
         Navbar!!!
-        {
-          this.props.children && React.cloneElement(this.props.children)
-        }
       </div>
     );
   }
