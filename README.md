@@ -1,4 +1,4 @@
-# Snowplow
+# Snow360
 
 
 ##Installation
@@ -11,26 +11,26 @@
 
 Run `npm install` from root directory of the project to install.
 
-________________
+
 ## Server
 
 Run `npm start` to start server.
 
-________________
+
 ## Run build
 
 Run `npm build` for standard build.
 
 Run `npm run build-dev` for quicker compile and live reload for development purpose.
 
-________________
+
 ## Running unit tests
 
 Run `npm test` to execute the unit tests
 
 Please note that the `npm test` command will run `npm run lint` after running unit tests.
 
-________________
+
 ## Main Technologies Used
 
 ### Backend
@@ -42,5 +42,10 @@ ________________
 * [Mocha](https://mochajs.org/) Mocha JavaScript Testing Framework
 * [Chai](http://chaijs.com/) Chai JavaScript BDD/TDD assertion library
 
-________________
+
 ## Milestones
+
+*[Scaffold Application](https://github.com/omiologic/snowplow/milestone/2)
+*[Complete UI/UX MVP](https://github.com/omiologic/snowplow/milestone/1)
+*[Setup basic SEO & google analytics](https://github.com/omiologic/snowplow/milestone/3)
+*[Deploy to server ](https://github.com/omiologic/snowplow/milestone/4)

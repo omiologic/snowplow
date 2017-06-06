@@ -11,12 +11,12 @@ import * as Reducers from './reducers/index';
  * @param: object = { Reducer1, Reducer2, Reducer3 ... }
  * @return: [ Reducer1, Reducer2, Reducer3 ]
  */
-function mapReducers(reducers){
-    const result = {};
-    Object.keys(reducers).map(key=>{
-        result[key] = Reducers[key]
-    });
-    return result;
+function mapReducers(reducers) {
+  const result = {};
+  Object.keys(reducers).map(key => {
+    result[key] = Reducers[key];
+  });
+  return result;
 }
 
 /* Middlewares */
