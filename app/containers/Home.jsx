@@ -9,9 +9,9 @@ export default class HomeContainer extends React.Component {
     return (
       <div>
         <div>THIS IS HOME CONTAINER</div>
-        <Jumbotron/>
-        <About/>
-        <Team/>
+        <Jumbotron />
+        <About />
+        <Team />
         <Service />
       </div>
     );
