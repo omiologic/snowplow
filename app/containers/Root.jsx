@@ -6,11 +6,9 @@ export default class RootContainer extends React.Component {
   render() {
     return (
       <div>
-        <Header/>
-        {
-          this.props.children && React.cloneElement(this.props.children)
-        }
-        <Footer/>
+        <Header />
+        {this.props.children && React.cloneElement(this.props.children)}
+        <Footer />
       </div>
     );
   }
