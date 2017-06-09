@@ -1,0 +1,47 @@
+header {
+
+  &>.navbar {
+    display: block;
+    min-height: 54px;
+    padding: 5px 5%;
+    &.navbar-fixed {
+      position: fixed;
+    }
+
+    &.navbar-collapse {
+      position: absolute;
+    }
+
+    .nav-brand, .nav-right {
+      height: 54px;
+    }
+
+    .nav-brand {
+      float: left;
+      max-width: 320px;
+      img {
+        width: 280px;
+        height: auto;
+      }
+    }
+
+    .nav-right {
+      float: right;
+      min-width: 500px;
+    }
+
+    .menu {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .menu-item {
+
+      }
+
+    }
+  }
+}
+
+.menu.inline-menu {
+  height: 100%;
+}
