@@ -21,13 +21,14 @@ module.exports = {
         "no-unused-expressions": "off",
         "one-var": "off",
         "new-parens": "off",
-        "indent": ["error", 2,
+        "indent": ["error", "tab",
             {
                 "SwitchCase": 1,
                 "VariableDeclarator": { "var": 2, "let": 2, "const": 3 }
             }
         ],
         "arrow-body-style": ["warn", "as-needed"],
+        "arrow-parens": [2, "as-needed", { "requireForBlockBody": true }],
         "no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
         "no-unused-vars": "off",
         "react/jsx-uses-react": "error",

@@ -1,0 +1,19 @@
+@import "stylesheets/color";
+@import "stylesheets/media";
+@import "stylesheets/font";
+@import "stylesheets/bootstrap";
+
+
+@import "components/components";
+
+
+
+.jumbotron {
+  width: 100vw;
+  min-height: 70vh;
+  overflow: hidden;
+  video {
+    width: 100%;
+    height: 100%;
+  }
+}
