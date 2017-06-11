@@ -1,0 +1,35 @@
+.icon i.svg {
+
+  &:before {
+    content: '';
+    display: inline-block;
+  }
+  &.icon-lg:before {
+    height: 60px;
+    width: 60px;
+  }
+
+  &.snowflake:before {
+    background: url(/icons/snowflake.svg) no-repeat 0 0;
+  }
+
+  &.snowplow:before {
+    background: url(/icons/snowplow.svg) no-repeat 0 0;
+  }
+
+  &.trucking:before {
+    background: url(/icons/trucking.svg) no-repeat 0 0;
+  }
+
+  &.shovel:before {
+    background: url(/icons/shovel.svg) no-repeat 0 0;
+  }
+
+  &.snow:before {
+    background: url(/icons/snow.svg) no-repeat 0 0;
+  }
+
+  &.snow-boot:before {
+    background: url(/icons/snow-boot.svg) no-repeat 0 0;
+  }
+}
