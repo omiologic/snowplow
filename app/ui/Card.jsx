@@ -1,9 +1,9 @@
 import React from 'react';
 import classNames from 'classnames';
 
-export default class CardComponent extends React.Component {
+export class Card extends React.Component {
 	render() {
-		const children = React.Children.map(this.props.children, child => {
+		const children = React.Children.map(this.props.children, (child) => {
 			return React.cloneElement(child);
 		});
 

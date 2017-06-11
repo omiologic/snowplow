@@ -1,0 +1,57 @@
+#service {
+
+  .card {
+    border: 2px solid rgba(200, 200, 200, 0.6);
+    border-radius: 3px;
+    overflow: hidden;
+    height: 250px;
+    position: relative;
+    margin: 15px 0px;
+
+    .detail, .default {
+      height: 250px;
+      padding: 10px;
+      -webkit-transition: all .6s ease-in-out;
+      transition: all .6s ease-in-out;
+      transform: translateY(0%);
+      text-align: center;
+    }
+
+    &:hover, &:focus {
+      background: #ffc30e;
+      .detail, .default {
+        transform: translateY(-100%);
+      }
+    }
+
+    .default {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      & > div {
+        font-size: 20px;
+        margin-top: 30px;
+        height: 70px;
+        &:first-child {
+          margin-top: 20px;
+          height: auto;
+        }
+      }
+      i {
+        font-size: 46px;
+      }
+    }
+
+    .detail {
+      & > div {
+        margin-top: 20px;
+      }
+    }
+    .card-btn {
+      width: 50%;
+      margin: 20px auto 0px auto;
+    }
+  }
+}
+

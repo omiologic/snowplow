@@ -2,35 +2,33 @@ import React from 'react';
 import Navbar from '../../ui/Navbar';
 
 const HeaderMenu = [
-    {
-        text: 'Home',
-        scrollTo: '#home'
-    },
-    {
-        text: 'About',
-        scrollTo: '#about'
-    },
-    {
-        text: 'Service',
-        scrollTo: '#service'
-    },
-    {
-        text: 'Team',
-        scrollTo: '#team'
-    },
-    {
-        text: 'Blog',
-        scrollTo: '#blog'
-    },
-    {
-        text: 'Contact',
-        scrollTo: '#contact'
-    }
+	{
+		text: 'Home',
+		scrollTo: '#home'
+	},
+	{
+		text: 'About',
+		scrollTo: '#about'
+	},
+	{
+		text: 'Service',
+		scrollTo: '#service'
+	},
+	{
+		text: 'Team',
+		scrollTo: '#team'
+	},
+	{
+		text: 'Blog',
+		scrollTo: '#blog'
+	},
+	{
+		text: 'Contact',
+		scrollTo: '#contact'
+	}
 ];
 
 export default class HeaderComponent extends React.Component {
-
-
 	render() {
 		return (
             <header id="header">

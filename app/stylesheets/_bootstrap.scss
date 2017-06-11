@@ -4,4 +4,22 @@ body {
 
 a {
   text-decoration: none;
+  color: rgba(129, 129, 129, 1);
+  &:hover, &:focus {
+    text-decoration: none;
+    color: rgba(170, 170, 170, 1);
+  }
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.indent-1 {
+  padding-left: 20px;
 }
