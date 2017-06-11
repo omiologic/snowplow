@@ -2,6 +2,8 @@
 @import "stylesheets/media";
 @import "stylesheets/font";
 @import "stylesheets/bootstrap";
+@import "stylesheets/section";
+@import "stylesheets/button";
 
 
 @import "components/components";
@@ -12,8 +14,5 @@
   width: 100vw;
   min-height: 70vh;
   overflow: hidden;
-  video {
-    width: 100%;
-    height: 100%;
-  }
+  margin: 0;
 }

@@ -1,0 +1,108 @@
+footer.theme-dark {
+  background: #191919;
+  color: #7b7b7b;
+
+  .container {
+    padding: 40px 0px;
+  }
+
+  .list-item {
+    i {
+      color: #ffc30e;
+      font-size: 14px;
+      padding: 5px;
+    }
+  }
+
+  hr {
+    border-color: rgba(84, 84, 84, 0.6);
+  }
+
+  .row {
+    padding: 15px 0px;
+  }
+
+  .highlight {
+    color: #f6f6f6;
+  }
+  .card {
+    border: 1px solid rgba(84, 84, 84, 0.66);
+    position: relative;
+    padding: 15px 10px 20px 20px;
+    border-radius: 3px;
+    .icon {
+      position: absolute;
+      bottom: -10px;
+      left: 10px;
+      font-size: 24px;
+      background: #ffc30e;
+      color: #191919;
+      border-radius: 3px;
+      padding: 10px 14px;
+    }
+
+    .text {
+      height: 100px;
+      padding-left: 50px;
+
+      .description {
+        padding-left: 15px;
+      }
+
+    }
+  }
+
+  .heading {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .subHeading {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+}
+
+.twitter-card {
+  margin-bottom: 10px;
+
+  .twit-by {
+    color: #ffc30e;
+    margin-right: 10px;
+  }
+  .twit-time {
+    font-size: 12px;
+  }
+}
+
+.blog-list {
+
+  .list-item {
+    font-size: 14px;
+    display: flex;
+    padding: 10px 0px;
+    border-bottom: 1px solid rgba(84, 84, 84, 0.6);
+    &>div {
+      width: calc(100% - 60px);
+      display: inline-block;
+      padding: 0px 10px;
+    }
+    img {
+      vertical-align: top;
+      width: 60px;
+      height: 60px;
+    }
+    .blog-date {
+      font-size: 12px;
+    }
+
+    &:last-child {
+      border-bottom: 0px;
+    }
+  }
+}
