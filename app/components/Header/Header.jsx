@@ -1,30 +1,26 @@
 import React from 'react';
-import Navbar from '../../ui/Navbar';
+import { Link } from 'react-router-dom';
 
 const HeaderMenu = [
 	{
 		text: 'Home',
-		scrollTo: '#home'
+		linkTo: '/home'
 	},
 	{
 		text: 'About',
-		scrollTo: '#about'
+		linkTo: '/about'
 	},
 	{
 		text: 'Service',
-		scrollTo: '#service'
-	},
-	{
-		text: 'Team',
-		scrollTo: '#team'
+		linkTo: '/service'
 	},
 	{
 		text: 'Blog',
-		scrollTo: '#blog'
+		linkTo: '#blog'
 	},
 	{
 		text: 'Contact',
-		scrollTo: '#contact'
+		linkTo: '/contact'
 	}
 ];
 
@@ -41,9 +37,9 @@ export default class HeaderComponent extends React.Component {
                         <div className="menu inline-menu">{
                                 HeaderMenu.length && HeaderMenu.map(item => (
                                     <div className="menu-item">
-                                        <a>
+                                        <Link to={item.linkTo}>
                                             <span>{item.text}</span>
-                                        </a>
+                                        </Link>
                                     </div>
                                 ))
                             }
