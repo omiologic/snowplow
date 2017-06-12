@@ -1,7 +1,7 @@
 # Snow360
 
 
-##Installation
+## Installation
 
 **1. Clone the repo**
 
@@ -41,11 +41,13 @@ Please note that the `npm test` command will run `npm run lint` after running un
 * [Redux](http://redux.js.org/) predictable state container for JavaScript apps
 * [Mocha](https://mochajs.org/) Mocha JavaScript Testing Framework
 * [Chai](http://chaijs.com/) Chai JavaScript BDD/TDD assertion library
+* [Webpack](https://webpack.github.io/) Webpack Module Bundler for Compiling Application
+* [Sass](http://sass-lang.com/) CSS extension language
 
 
 ## Milestones
 
-*[Scaffold Application](https://github.com/omiologic/snowplow/milestone/2)
-*[Complete UI/UX MVP](https://github.com/omiologic/snowplow/milestone/1)
-*[Setup basic SEO & google analytics](https://github.com/omiologic/snowplow/milestone/3)
-*[Deploy to server ](https://github.com/omiologic/snowplow/milestone/4)
+* [Scaffold Application](https://github.com/omiologic/snowplow/milestone/2)
+* [Complete UI/UX MVP](https://github.com/omiologic/snowplow/milestone/1)
+* [Setup basic SEO & google analytics](https://github.com/omiologic/snowplow/milestone/3)
+* [Deploy to server ](https://github.com/omiologic/snowplow/milestone/4)

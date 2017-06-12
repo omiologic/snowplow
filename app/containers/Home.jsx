@@ -1,6 +1,6 @@
 import React from 'react';
 import Jumbotron from '../ui/Jumbotron';
-import About from '../components/About';
+import Company from '../components/Company/Company';
 import Team from '../components/Team';
 import Service from '../components/Service/Service';
 
@@ -12,6 +12,7 @@ export default class HomeContainer extends React.Component {
                 <div>
                     <Service />
                     <Team />
+                    <Company />
                 </div>
             </div>
 		);
