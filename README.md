@@ -1,7 +1,7 @@
 # Snow360
 
 
-##Installation
+## Installation
 
 **1. Clone the repo**
 

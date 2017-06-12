@@ -10,16 +10,12 @@ export class Section extends React.Component {
         const children = React.Children.map(this.props.children, (child) => {
             return React.cloneElement(child);
         });
-
 		const props = Object.assign({}, this.props);
 		props.className = classNames(this.props.className);
-
 		const containerProps = {
 		    fluid: this.props.fluid
         };
-
 		delete props.fluid;
-        console.log(props, containerProps);
 		return (
             <section {...props}>
                 <Grid {...containerProps}>
