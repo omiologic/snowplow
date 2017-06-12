@@ -32,4 +32,20 @@
   &.snow-boot:before {
     background: url(/icons/snow-boot.svg) no-repeat 0 0;
   }
+
+  &.handshake:before {
+    background: url(/icons/handshake.svg) no-repeat 0 0;
+  }
+
+  &.clock:before {
+    background: url(/icons/clock.svg) no-repeat 0 0;
+  }
+
+  &.money:before {
+    background: url(/icons/money.svg) no-repeat 0 0;
+  }
+
+  &.quality:before {
+    background: url(/icons/quality.svg) no-repeat 0 0;
+  }
 }
