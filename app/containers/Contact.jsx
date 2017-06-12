@@ -42,7 +42,7 @@ export default class ContactContainer extends React.Component {
 		return (
             <Section>
                 <SectionHeader primaryText="CONTACT US"
-                                secondaryText="We are happy to guide you" />
+                                secondaryText="WE ARE HAPPY TO GUIDE YOU" />
                 <Row>
                     <Col xs={12} md={8} mdOffset={2}>
                          <form>

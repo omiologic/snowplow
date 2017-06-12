@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 
 const HeaderMenu = [
 	{
@@ -12,11 +12,11 @@ const HeaderMenu = [
 	},
 	{
 		text: 'Service',
-		linkTo: '/service'
+		linkTo: '/services'
 	},
 	{
 		text: 'Blog',
-		linkTo: '#blog'
+		linkTo: '/blog'
 	},
 	{
 		text: 'Contact',
@@ -34,7 +34,8 @@ export default class HeaderComponent extends React.Component {
                     </div>
 
                     <div className="nav-right">
-                        <div className="menu inline-menu">{
+                        <div className="menu inline-menu">
+							{
                                 HeaderMenu.length && HeaderMenu.map(item => (
                                     <div className="menu-item">
                                         <Link to={item.linkTo}>
