@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import { Section } from './Section/Section';
 import { SectionHeader } from './Section/SectionHeader';
 import { SectionDescription } from './Section/SectionDescription';
-
+import { Button } from '../ui/Button';
 
 export default class TeamComponent extends React.Component {
 	render() {
@@ -12,7 +12,6 @@ export default class TeamComponent extends React.Component {
 				<SectionHeader primaryText="TEAM MEMBERS"
 							   secondaryText="THE PROFESSIONALS"
 							   description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat eu erat sit amet consectetur. Praesent nec nulla aliquet, porttitor leo non, suscipit urna. Nulla." />
-				<ServiceCards />
 				<Row>
 					<Col xs={12} md={6} lg={3}>
 						<div className="card team-card">
