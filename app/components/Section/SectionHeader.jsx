@@ -16,18 +16,21 @@ export class SectionHeader extends React.Component {
         delete props.secondaryText;
         delete props.description;
 
+        const { primaryText, secondaryText, description } = this.props
         return (
             <Row>
                 <Col xs={12}>
                     <div {...props}>
                         <div className="section-subheading">
                             <i className="fa fa-square"></i>
-                            <span>{this.props.secondaryText}</span>
+                            <span>{secondaryText}</span>
                         </div>
-                        <h3>{this.props.primaryText}</h3>
-                        <div className="section-description">
-                            {this.props.description}
-                        </div>
+                        <h3>{primaryText}</h3>
+                        {
+                            description
+                                ? <div className="section-description">{description}</div>
+                                : null
+                        }
                     </div>
                 </Col>
             </Row>
@@ -44,5 +47,5 @@ SectionHeader.propTypes = {
 SectionHeader.defaultProps = {
     primaryText: 'HEADING',
     secondaryText: 'SUB HEADING',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat eu erat sit amet consectetur. Praesent nec nulla aliquet, porttitor leo non, suscipit urna. Nulla.',
+    description: null,
 };
