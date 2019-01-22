@@ -71,7 +71,8 @@ export default class ServiceComponent extends React.Component {
                 secondaryText="THE BEST"
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat eu erat sit amet consectetur. Praesent nec nulla aliquet, porttitor leo non, suscipit urna. Nulla." />
                 <ServiceCards />
-                <SectionDescription description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat eu erat sit amet consectetur. Praesent nec nulla aliquet, porttitor leo non, suscipit urna. Nulla."
+                <SectionDescription className="p-3"
+                                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consequat eu erat sit amet consectetur. Praesent nec nulla aliquet, porttitor leo non, suscipit urna. Nulla."
                                     button={ <Button className="quote-btn" text="HIRE US NOW" /> } />
             </Section>
 		);

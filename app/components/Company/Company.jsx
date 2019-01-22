@@ -25,11 +25,11 @@ export default class CompanyComponent extends React.Component {
 		return (
             <Section id="company">
                 <Row>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={12} lg={6}>
                         <Grid fluid={true} className="about">
                             <SectionHeader primaryText="THE COMPANY"
                                            secondaryText="ABOUT" />
-                            <Row>
+                            <Row className="d-block p-2">
                                 {
                                     company.length && company.map((statement, index) => (
                                         <div>
@@ -52,14 +52,14 @@ export default class CompanyComponent extends React.Component {
                             </Row>
                         </Grid>
                     </Col>
-                    <Col xs={12} md={6}>
+                    <Col xs={12} md={12} lg={6}>
                         <Grid fluid={true} className="features">
                             <SectionHeader primaryText="OUR FEATURES"
                                            secondaryText="WE ARE GOOD" />
                             <Row>
                                 {
                                     features.length && features.map((feature) => (
-                                        <Col xs={6}>
+                                        <Col sm={12} md={6} lg={6} className="p-2">
                                             <div className="card feature-card">
                                                 <div className="icon">
                                                     <i className={`svg ${feature.icon} icon-lg`}></i>

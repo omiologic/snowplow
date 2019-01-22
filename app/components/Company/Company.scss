@@ -24,17 +24,17 @@
     }
   }
 
-  .features {
-    > .row:nth-child(2) > div {
-      margin-bottom: 20px;
-    }
-    > .row:nth-child(2) > div:nth-child(even) .card {
-      margin-left: 10px;
-    }
-    > .row:nth-child(2) > div:nth-child(odd) .card {
-      margin-right: 10px;
-    }
-  }
+  // .features {
+  //   > .row:nth-child(2) > div {
+  //     margin-bottom: 20px;
+  //   }
+  //   > .row:nth-child(2) > div:nth-child(even) .card {
+  //     margin-left: 10px;
+  //   }
+  //   > .row:nth-child(2) > div:nth-child(odd) .card {
+  //     margin-right: 10px;
+  //   }
+  // }
 
   .about {
     
@@ -86,4 +86,8 @@ div.panel {
   padding: 18px;
   transition: all .6s ease-in-out;
   display: none;
+
+  &.show {
+    display: block;
+  }
 }

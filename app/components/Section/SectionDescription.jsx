@@ -18,7 +18,7 @@ export class SectionDescription extends React.Component {
             <Row>
                 <Col xs={12}>
                     <div {...props}>
-                        <div>
+                        <div className="mr-3">
                             { this.props.description }
                         </div>
                         { this.props.button }
